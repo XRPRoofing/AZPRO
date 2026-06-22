@@ -124,9 +124,9 @@ function Header() {
           </a>
         </div>
       </div>
-      <nav className="container-max px-4 py-4 flex items-center justify-between">
+      <nav className="container-max px-4 py-2 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-          <Image src="/logo.jpg" alt="AZ Pro Contractors LLC" width={320} height={107} className="h-24 w-auto" priority />
+          <Image src="/logo.jpg" alt="AZ Pro Contractors LLC" width={200} height={67} className="h-14 w-auto" priority />
         </Link>
         <div className="hidden lg:flex items-center gap-8">
           <Link href="/" className="font-medium text-gray-700 hover:text-[var(--color-accent)] transition-colors">Home</Link>

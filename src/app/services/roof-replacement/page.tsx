@@ -82,7 +82,7 @@ export default function RoofReplacementPage() {
         </div>
       </section>
 
-      <section className="section-padding bg-gradient-to-br from-[var(--color-accent)] to-[#8b0a1e] text-white text-center">
+      <section className="section-padding bg-gradient-to-br from-[var(--color-accent)] to-[#1e3a5f] text-white text-center">
         <div className="container-max">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready for a New Roof?</h2>
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">

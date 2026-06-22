@@ -174,7 +174,7 @@ function Footer() {
       <div className="container-max section-padding">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div>
-            <Image src="/logo.jpg" alt="AZ Pro Contractors LLC" width={160} height={53} className="h-10 w-auto mb-2 brightness-0 invert" />
+            <Image src="/logo.jpg" alt="AZ Pro Contractors LLC" width={200} height={67} className="h-16 w-auto mb-4 rounded bg-white p-2" />
             <h3 className="sr-only">AZ Pro Contractors LLC</h3>
             <p className="text-gray-400 mb-4">
               Premium roofing services for Phoenix, Arizona and surrounding communities. Licensed, bonded, and insured.

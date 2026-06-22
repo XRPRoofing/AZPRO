@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #1a365d;
+  --color-primary-light: #2a4a7f;
+  --color-accent: #c8102e;
+  --color-accent-hover: #a00d24;
+  --color-gold: #d4a843;
+  --color-gray-light: #f7f8fa;
+  --color-gray: #6b7280;
+  --color-dark: #111827;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+  color: var(--color-dark);
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center px-8 py-4 bg-[var(--color-accent)] text-white font-bold rounded-lg hover:bg-[var(--color-accent-hover)] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center px-8 py-4 bg-[var(--color-primary)] text-white font-bold rounded-lg hover:bg-[var(--color-primary-light)] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5;
+}
+
+.btn-outline {
+  @apply inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white font-bold rounded-lg hover:bg-white hover:text-[var(--color-primary)] transition-all duration-300;
+}
+
+.section-padding {
+  @apply px-4 py-16 md:py-24 lg:px-8;
+}
+
+.container-max {
+  @apply max-w-7xl mx-auto;
+}
+
+.heading-primary {
+  @apply text-3xl md:text-4xl lg:text-5xl font-bold text-[var(--color-primary)];
+}
+
+.heading-secondary {
+  @apply text-2xl md:text-3xl font-bold text-[var(--color-primary)];
+}
+
+.text-accent {
+  color: var(--color-accent);
+}
+
+.gradient-overlay {
+  background: linear-gradient(135deg, rgba(26, 54, 93, 0.9) 0%, rgba(26, 54, 93, 0.7) 100%);
+}

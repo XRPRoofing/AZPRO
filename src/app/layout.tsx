@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Montserrat } from "next/font/google";
+import Image from "next/image";
 import Link from "next/link";
 import "./globals.css";
 
@@ -124,10 +125,8 @@ function Header() {
         </div>
       </div>
       <nav className="container-max px-4 py-4 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-3">
-          <span className="text-2xl font-black text-[var(--color-primary)]" style={{ fontFamily: "Montserrat, sans-serif" }}>
-            AZ PRO<span className="text-[var(--color-accent)]"> CONTRACTORS</span>
-          </span>
+        <Link href="/" className="flex items-center gap-2">
+          <Image src="/logo.jpg" alt="AZ Pro Contractors LLC" width={180} height={60} className="h-12 w-auto" priority />
         </Link>
         <div className="hidden lg:flex items-center gap-8">
           <Link href="/" className="font-medium text-gray-700 hover:text-[var(--color-accent)] transition-colors">Home</Link>
@@ -175,9 +174,8 @@ function Footer() {
       <div className="container-max section-padding">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div>
-            <h3 className="text-xl font-bold mb-4" style={{ fontFamily: "Montserrat, sans-serif" }}>
-              AZ PRO<span className="text-[var(--color-accent)]"> CONTRACTORS</span>
-            </h3>
+            <Image src="/logo.jpg" alt="AZ Pro Contractors LLC" width={160} height={53} className="h-10 w-auto mb-2 brightness-0 invert" />
+            <h3 className="sr-only">AZ Pro Contractors LLC</h3>
             <p className="text-gray-400 mb-4">
               Premium roofing services for Phoenix, Arizona and surrounding communities. Licensed, bonded, and insured.
             </p>
